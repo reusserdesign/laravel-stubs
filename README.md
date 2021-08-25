@@ -1,8 +1,8 @@
 # Opinionated Laravel stubs
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/spatie/laravel-stubs.svg?style=flat-square)](https://packagist.org/packages/spatie/laravel-stubs)
-[![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/spatie/laravel-stubs/run-tests?label=tests)](https://github.com/spatie/laravel-stubs/actions?query=workflow%3Arun-tests+branch%3Amaster)
-[![Total Downloads](https://img.shields.io/packagist/dt/spatie/laravel-stubs.svg?style=flat-square)](https://packagist.org/packages/spatie/laravel-stubs)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/reusserdesign/laravel-stubs.svg?style=flat-square)](https://packagist.org/packages/reusserdesign/laravel-stubs)
+[![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/reusserdesign/laravel-stubs/run-tests?label=tests)](https://github.com/reusserdesign/laravel-stubs/actions?query=workflow%3Arun-tests+branch%3Amaster)
+[![Total Downloads](https://img.shields.io/packagist/dt/reusserdesign/laravel-stubs.svg?style=flat-square)](https://packagist.org/packages/reusserdesign/laravel-stubs)
 
 This repo contains opinionated versions of the Laravel stubs. The most notable changes are:
 
@@ -25,7 +25,7 @@ We highly appreciate you sending us a postcard from your hometown, mentioning wh
 You can install the package via composer:
 
 ```bash
-composer require spatie/laravel-stubs --dev
+composer require reusserdesign/laravel-stubs --dev
 ```
 
 If you want to keep your stubs up to date with every update, add this composer hook to your composer.json file:
@@ -33,7 +33,7 @@ If you want to keep your stubs up to date with every update, add this composer h
 ```json
 "scripts": {
     "post-update-cmd": [
-        "@php artisan spatie-stub:publish"
+        "@php artisan reusser-stub:publish"
     ]
 }
 ```
@@ -43,7 +43,7 @@ If you want to keep your stubs up to date with every update, add this composer h
 You can publish the stubs using this command:
 
 ```bash
-php artisan spatie-stub:publish
+php artisan reusser-stub:publish
 ```
 
 ## Testing

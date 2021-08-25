@@ -1,17 +1,23 @@
 {
-    "name": "spatie/laravel-stubs",
+    "name": "reusserdesign/laravel-stubs",
     "description": "Opinionated Laravel stubs",
     "keywords": [
-        "spatie",
+        "reusserdesign",
         "laravel-stubs"
     ],
-    "homepage": "https://github.com/spatie/laravel-stubs",
+    "homepage": "https://github.com/reusserdesign/laravel-stubs",
     "license": "MIT",
     "authors": [
         {
             "name": "Freek Van der Herten",
             "email": "freek@spatie.be",
             "homepage": "https://spatie.be",
+            "role": "Developer"
+        },
+        {
+            "name": "Reusser Design",
+            "email": "developer@reusserdesign.com",
+            "homepage": "https://reusserdesign.com",
             "role": "Developer"
         }
     ],
@@ -25,12 +31,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Spatie\\Stubs\\": "src"
+            "ReusserDesign\\Stubs\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Spatie\\Stubs\\Tests\\": "tests"
+            "ReusserDesign\\Stubs\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -44,7 +50,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Spatie\\Stubs\\StubsServiceProvider"
+                "ReusserDesign\\Stubs\\StubsServiceProvider"
             ]
         }
     },

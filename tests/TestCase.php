@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\Stubs\Tests;
+namespace ReusserDesign\Stubs\Tests;
 
 use Orchestra\Testbench\TestCase as Orchestra;
 use Spatie\Stubs\StubsServiceProvider;

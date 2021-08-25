@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\Stubs\Tests;
+namespace ReusserDesign\Stubs\Tests;
 
 use Illuminate\Support\Facades\File;
 

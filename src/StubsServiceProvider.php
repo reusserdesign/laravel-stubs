@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\Stubs;
+namespace ReusserDesign\Stubs;
 
 use Illuminate\Support\ServiceProvider;
 
