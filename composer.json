@@ -9,15 +9,15 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Freek Van der Herten",
-            "email": "freek@spatie.be",
-            "homepage": "https://spatie.be",
-            "role": "Developer"
-        },
-        {
             "name": "Reusser Design",
             "email": "developer@reusserdesign.com",
             "homepage": "https://reusserdesign.com",
+            "role": "Developer"
+        },
+        {
+            "name": "Freek Van der Herten",
+            "email": "freek@spatie.be",
+            "homepage": "https://spatie.be",
             "role": "Developer"
         }
     ],

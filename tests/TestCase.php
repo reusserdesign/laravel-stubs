@@ -3,7 +3,7 @@
 namespace ReusserDesign\Stubs\Tests;
 
 use Orchestra\Testbench\TestCase as Orchestra;
-use Spatie\Stubs\StubsServiceProvider;
+use ReusserDesign\Stubs\StubsServiceProvider;
 
 abstract class TestCase extends Orchestra
 {
